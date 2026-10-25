@@ -45,3 +45,7 @@ html, body {
 .animate-skeleton {
   animation: pulseSlow 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
+
+.map-tiles-dark {
+  filter: brightness(0.6) invert(1) contrast(3) hue-rotate(200deg) saturate(0.3) brightness(0.7);
+}
